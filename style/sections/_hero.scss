@@ -3,9 +3,8 @@
   height: 100vh;
   display: flex;
   align-items: center;
-
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $light-white;
   padding: 0rem 5.6rem;
   top: 0;
   left: 0;
@@ -17,9 +16,10 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-    background: url("../assets/sable.jpg");
     background-position: center;
     background-size: cover;
+
+
 
   @include respond(tab-port) {
     justify-content: center;
@@ -79,7 +79,7 @@
 .scroll-down {
   height: 50px;
   width: 30px;
-  border: 2px solid #000000;
+  border: 2px solid $secondary-color;
   border-radius: 50px;
   cursor: pointer;
   &::before,
