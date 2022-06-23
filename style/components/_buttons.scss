@@ -90,11 +90,11 @@
 /* Resume Style */
 .cta-btn--resume {
   border-radius: 0;
-  color: $white-color;
-  border: 2px solid $white-color;
+  color: $light-white;
+  border: 2px solid $light-white;
 
   &::after {
-    background: $white-color;
+    background: $primary-color;
   }
 
   &:hover {

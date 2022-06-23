@@ -10,16 +10,15 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: 1;
   line-height: 1.2;
   animation: hidden 1000ms linear forwards;
 
+
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-    background-position: center;
-    background-size: cover;
-
-
+    //background-position: center;
+    //background-size: cover;
 
   @include respond(tab-port) {
     justify-content: center;
@@ -79,7 +78,7 @@
 .scroll-down {
   height: 50px;
   width: 30px;
-  border: 2px solid $secondary-color;
+  border: 2px solid $primary-color;
   border-radius: 50px;
   cursor: pointer;
   &::before,
@@ -90,7 +89,7 @@
     position: absolute;
     top: 20%;
     left: 50%;
-    border: 2px solid $secondary-color;
+    border: 2px solid $primary-color;
     transform: translate(-50%, -100%) rotate(45deg);
     border-top: none;
     border-left: none;
